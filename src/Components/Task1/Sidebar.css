@@ -1,0 +1,87 @@
+/* Sidebar.css */
+
+.sidebar {
+   width: 200px;
+    height: 700px;
+    background-color: rgb(227, 227, 224);
+    color: #272626;
+    padding: 20px;
+    border: 1px solid rgb(220, 217, 217);
+    position: fixed;
+    top: 53px; 
+    left: 0;
+}
+
+.dropbtn {
+    background-color: #342256;
+    color: rgb(213, 213, 216);
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #362b7e;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.section-header {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        /* Make the sidebar occupy the full width of the screen on small devices */
+        height: auto;
+        /* Allow the height to adjust based on content */
+        position: static;
+        /* Reset the "position" property to its default value */
+        padding-bottom: 20px;
+        /* Add some spacing at the bottom on small screens */
+    }
+
+    .section {
+        margin-top: 10px;
+        /* Reduce the top margin for sections on small screens */
+    }
+}

@@ -1,0 +1,67 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    padding: 10px 20px;
+    position: fixed;
+    top: 0; 
+    width: 97%;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    flex: 1; /* Take all the available space to push content to the right */
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    color: rgb(21, 23, 32);
+    margin-right: 20px;
+    font-weight: 600;
+  }
+  
+  .nav-links {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center; /* Center the links horizontally */
+     flex: 1; 
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    border: none;
+  }
+  
+  .nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .nav-icons i {
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+  
+  .nav-account {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+  }
+  .checked-in{
+    border: 1px solid;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  .clinical{
+    /* text-decoration: underline !important; */
+    /* padding-top: 4px; */
+    border-bottom: 2px solid rgb(79, 46, 106) !important;
+  }
+  

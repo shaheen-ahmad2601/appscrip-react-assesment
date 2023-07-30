@@ -1,0 +1,46 @@
+
+.subnavbar {
+    display: flex;
+    border: 1px solid rgb(194, 191, 191);
+    width: 76%;
+    margin-left: 250px;
+    padding: 10px;
+}
+
+.sub-txt {
+    margin-bottom: 10px;
+}
+
+.top-text {
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 20px;
+}
+
+.font-color {
+    color: grey;
+    margin-top: -5px;
+}
+
+.bottom-text {
+    text-decoration: none;
+    border-bottom: 2px solid #3c286a;
+    padding-bottom: 2px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .subnavbar {
+        flex-direction: column;
+        width: 100%; 
+        margin-left: 0; 
+    }
+
+    .top-text {
+        font-size: 16px; 
+    }
+
+    .font-color {
+        font-size: 14px; 
+    }
+}
