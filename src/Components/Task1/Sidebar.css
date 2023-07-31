@@ -1,9 +1,8 @@
-/* Sidebar.css */
 
 .sidebar {
    width: 200px;
     height: 700px;
-    background-color: rgb(227, 227, 224);
+    background-color: rgb(247, 247, 244);
     color: #272626;
     padding: 20px;
     border: 1px solid rgb(220, 217, 217);
@@ -71,17 +70,12 @@
 @media (max-width: 768px) {
     .sidebar {
         width: 100%;
-        /* Make the sidebar occupy the full width of the screen on small devices */
         height: auto;
-        /* Allow the height to adjust based on content */
         position: static;
-        /* Reset the "position" property to its default value */
         padding-bottom: 20px;
-        /* Add some spacing at the bottom on small screens */
     }
 
     .section {
         margin-top: 10px;
-        /* Reduce the top margin for sections on small screens */
     }
 }

@@ -1,52 +1,57 @@
 .main-div {
-    width: 77%;
-   
-    border: 1px solid rgb(199, 196, 196);
-    margin-left: 250px;
-    margin-top: 10px;
-    padding: 10px;
-  }
-  
-  img {
-    width: 100px;
-    border-radius: 50%;
-  }
-  
+  width: 77%;
+  border: 1px solid rgb(223, 220, 220);
+  margin-left: 250px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.row-1 {
+  border: 1px solid rgb(241, 241, 240);
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.sub-section1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.name-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.status-red {
+  color: red;
+}
+
+.status-green {
+  color: green;
+}
+
+.button {
+  padding: 10px;
+  background-color: rgb(53, 28, 112);
+  color: white;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
   .row-1 {
-    border: 1px solid rgb(191, 181, 181);
-    display: flex;
-    justify-content: space-around;
-    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px; 
+     
   }
-  
-  .sub-section1 {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-  }
-  
-  .name-text {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  .status-red {
-    color: red;
-  }
-  
-  .status-green {
-    color: green;
-  }
-  .button{
-    padding: 10px;
-    /* border: 1px solid blue; */
-    background-color: rgb(53, 28, 112);
-    color: white;
-    border-radius: 10px;
-  }
-  
-  
+}
 
 
-/* <p className="name-text">Malenie Laurent</p>
-<p className="name-text">Appointment Id:324424</p>
-<p className="name-text intake" >Intake comprehensiv Assesment</p> */
+
+

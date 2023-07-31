@@ -5,7 +5,7 @@
   justify-content: center;
   gap: 10px;
   padding: 10px;
-  background-color: #f0f0f0;
+  background-color: #f3f4f0;
   margin-left: 245px;
   width: 75%;
 }
@@ -64,7 +64,7 @@
     background: transparent;
    
 }
-.heading__filterBox::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+.heading__filterBox::placeholder { 
     color: rgb(7, 27, 57);
     opacity: 1; 
     text-align: center;
